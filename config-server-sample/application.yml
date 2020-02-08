@@ -1,1 +1,22 @@
-my.name=Config Server Sample
+spring:
+    profiles:
+        active: "dev"
+
+my:
+    name: Default Praveen
+
+---
+
+spring:
+  profiles: dev
+
+my:
+    name: Dev Praveen
+
+---
+
+spring:
+  profiles: prod
+
+my:
+    name: Prod Praveen
