@@ -1,0 +1,18 @@
+my:
+    name: Default Praveen Client
+
+---
+
+spring:
+  profiles: dev
+
+my:
+    name: Dev Praveen Client
+
+---
+
+spring:
+  profiles: prod
+
+my:
+    name: Prod Praveen Client
